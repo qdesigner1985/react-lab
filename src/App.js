@@ -11,7 +11,7 @@ function App() {
     let length1;
     let message;
     if (email.length < 10) {
-        message = <div>Ale masz krótki adres!</div>;
+        message = <span>Ale masz krótki adres! </span>;
     } else if (email.length < 23) {
         message = <span>Twój adres e-mail jest w sam raz </span>;
     } else {
